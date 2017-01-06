@@ -14,10 +14,26 @@
  *= require_self
  */
 
- * {
-  background-color: rgb(172, 159, 138);
- }
+* {
+background-color: white;
+}
 
- h1 {
-   color: red;
- }
+.md-full-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: auto;
+}
+
+h1.message {
+  text-align: center;
+  color: rgb(177,64,75);
+  padding-top: 10px;
+}
+
+h1.center {
+ text-align: center;
+ padding-top: 50px;
+ color: rgb(177,64,75);
+}
